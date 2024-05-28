@@ -1,2 +1,2 @@
-export { default as Foo } from './Foo';
-export { default as Bar } from './Bar';
+export { default as MForm } from './MForm';
+export { default as MInput } from './MInput';
