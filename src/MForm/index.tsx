@@ -14,7 +14,7 @@ const MForm: FC<FormProps & { formItems: FormItemProps[] }> = ({
       validateMessages={{ required: '请输入${label}' }}
     >
       {formItems.map((props) => (
-        <Form.Item key={props?.name} {...props}>
+        <Form.Item key={props.name as 'string'} {...props}>
           {props.children}
         </Form.Item>
       ))}
